@@ -42,7 +42,7 @@ impl PdfCraftApp {
         let mark = if dirty { " •" } else { "" };
         let titled = |name: Option<String>| {
             name.or_else(|| self.combine_showing().then(|| tl!("Combine files").to_owned()))
-                .map_or_else(|| "PdfCraft".to_owned(), |name| format!("{name}{mark} — PdfCraft"))
+                .map_or_else(|| pdfcraft_engine::links::APP_NAME.to_owned(), |name| format!("{name}{mark} — {}", pdfcraft_engine::links::APP_NAME))
         };
         let title = titled(self.active.and_then(|i| crate::canvas::tab_label(self, i)));
         // The web page's title is what an embedding host reads to tell which file opened, so it
@@ -495,6 +495,7 @@ impl eframe::App for PdfCraftApp {
                 OsEvent::Open(_) => {}
                 // Like closing the window: `guard_quit` asks about unsaved changes.
                 OsEvent::Quit => ctx.send_viewport_cmd(egui::ViewportCommand::Close),
+                OsEvent::Notice(message) => self.notify(message),
             }
         }
         if let Some((_, id)) = self.active_ids() {

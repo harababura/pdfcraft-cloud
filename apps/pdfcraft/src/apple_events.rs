@@ -28,7 +28,7 @@ impl AppleEvents {
     }
 
     /// The queue the UI drains (`PdfCraftApp::os_events`); events arriving later wake `ctx`.
-    pub fn connect(&self, ctx: &egui::Context) -> OsEventsFn {
+    pub fn connect(&self, ctx: &egui::Context, cloud: std::rc::Rc<std::cell::RefCell<crate::cloud_links::CloudLinks>>) -> OsEventsFn {
         let ctx = ctx.clone();
         self.inbox.set_wake(move || ctx.request_repaint());
         let inbox = self.inbox.clone();
@@ -36,9 +36,14 @@ impl AppleEvents {
             inbox
                 .drain()
                 .into_iter()
-                .map(|e| match e {
-                    Event::Open(paths) => OsEvent::Open(paths.into_iter().map(|p| p.to_string_lossy().into_owned()).collect()),
-                    Event::Quit => OsEvent::Quit,
+                .filter_map(|e| match e {
+                    Event::Open(paths) => Some(OsEvent::Open(paths.into_iter().map(|p| p.to_string_lossy().into_owned()).collect())),
+                    // Fork patch: a PureQuad Cloud link (`purequad-pdf://open?…`) downloads first.
+                    Event::Url(url) => {
+                        cloud.borrow_mut().start(&url);
+                        None
+                    }
+                    Event::Quit => Some(OsEvent::Quit),
                 })
                 .collect()
         })

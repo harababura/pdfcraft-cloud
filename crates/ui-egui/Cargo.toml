@@ -10,6 +10,8 @@ rust-version = "1.95"
 workspace = true
 
 [dependencies]
+# Fork patch: the PureQuad Cloud buttons ask the app's cloud window (requests only, no network).
+purequad-cloud = { path = "../purequad-cloud", default-features = false }
 craft-ui = { workspace = true }
 # The menus: native on macOS, an egui bar elsewhere, from one definition (menus.rs).
 craft-menu = { workspace = true }

@@ -70,7 +70,7 @@ pub fn tab_strip(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
                     app.combine_tab.focused = false;
                 }
                 // Reserve the three icon buttons, Discord and their gaps outside the scrolling tabs.
-                let controls_width = ui.fonts_mut(|f| f.layout_no_wrap("Discord".into(), theme::medium(13.0), t.text).size().x)
+                let controls_width = ui.fonts_mut(|f| f.layout_no_wrap("PureQuad Cloud".into(), theme::medium(13.0), t.text).size().x)
                     + 3.0 * button
                     + 54.0
                     + window_controls::width(&controls.right);
@@ -309,9 +309,9 @@ pub fn tab_strip(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
                     if icons::button(ui, "circle-help", button, false, tl!("Keyboard shortcuts")).clicked() {
                         app.dialog = Some(Dialog::Shortcuts);
                     }
-                    // One click to the community, from anywhere in the app.
-                    if widgets::ghost_button_sized(ui, "messages-square", "Discord", tab_h).on_hover_text(pdfcraft_engine::links::DISCORD).clicked() {
-                        app.execute("help.discord");
+                    // Fork patch: one click to the PureQuad Cloud window, from anywhere in the app.
+                    if widgets::ghost_button_sized(ui, "cloud", "PureQuad Cloud", tab_h).on_hover_text(tl!("Open from PureQuad Cloud…")).clicked() {
+                        app.execute("file.cloud_open");
                     }
                 });
             });

@@ -187,6 +187,9 @@ pub const COMMANDS: &[CommandSpec] = &[
     c("page.combine", "Combine files…", FILE, None, Nothing, "files"),
     c("file.save", "Save", FILE, Some(Shortcut::cmd("S")), Document, "save"),
     c("file.save_as", "Save as…", FILE, Some(Shortcut::cmd_shift("S")), Document, "save"),
+    // Fork patch: PureQuad Cloud (the app's cloud window, purequad-cloud).
+    c("file.cloud_open", "Open from PureQuad Cloud…", FILE, None, Nothing, "cloud"),
+    c("file.cloud_save", "Save to PureQuad Cloud…", FILE, None, Document, "cloud"),
     c("file.close", "Close file", FILE, Some(Shortcut::cmd("W")), Document, "x"),
     c("file.close_all", "Close all", FILE, Some(Shortcut::cmd_shift("W")), Document, "x"),
     c("file.revert", "Revert", FILE, None, Undo, "rotate-ccw"),
@@ -396,12 +399,12 @@ pub const COMMANDS: &[CommandSpec] = &[
     c("page.number", "Number pages…", PAGES, None, Assembly, "hash"),
     c("page.properties", "Page properties…", PAGES, None, Modification, "info"),
     c("help.shortcuts", "Keyboard shortcuts", HELP, None, Nothing, "circle-help"),
-    c("help.discord", "Join the ArtCraft Discord", HELP, None, Nothing, "messages-square"),
-    c("help.app_page", "PdfCraft web page", HELP, None, Nothing, "globe"),
-    c("help.github", "PdfCraft on GitHub", HELP, None, Nothing, "code-xml"),
-    c("help.website", "ArtCraft website", HELP, None, Nothing, "external-link"),
+    c("help.discord", "PureQuad Cloud", HELP, None, Nothing, "cloud"),
+    c("help.app_page", "Help and other apps", HELP, None, Nothing, "globe"),
+    c("help.github", "Source code", HELP, None, Nothing, "code-xml"),
+    c("help.website", "PureQuad website", HELP, None, Nothing, "external-link"),
     c("help.check_updates", "Check for updates…", HELP, None, Nothing, "cloud"),
-    c("help.about", "About PdfCraft", HELP, None, Nothing, "info"),
+    c("help.about", "About PureQuad PDF", HELP, None, Nothing, "info"),
 ];
 
 pub fn command(id: &str) -> Option<&'static CommandSpec> {

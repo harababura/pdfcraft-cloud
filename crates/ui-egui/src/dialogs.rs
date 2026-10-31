@@ -1526,11 +1526,13 @@ fn dialog_about(ui: &mut egui::Ui, req: &mut Pending) -> bool {
             ui.horizontal(|ui| {
                 widgets::artcraft_mark(ui, 40.0);
                 ui.vertical(|ui| {
-                    ui.label(egui::RichText::new("PdfCraft").font(theme::semibold(20.0)));
+                    ui.label(egui::RichText::new(pdfcraft_engine::links::APP_NAME).font(theme::semibold(20.0)));
                     ui.label(crate::i18n::fmt(tl!("Version {v}"), &[("v", &pdfcraft_engine::build_info::version())]));
                 });
             });
             ui.add_space(6.0);
+            // Fork patch: PureQuad build. The brand terms allow saying, in plain text, what it is based on.
+            ui.label(tl!("Based on PdfCraft by the ArtCraft team"));
             ui.label(tl!("A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0."));
             ui.label(
                 egui::RichText::new(

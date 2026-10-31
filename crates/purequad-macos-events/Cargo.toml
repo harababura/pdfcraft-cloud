@@ -1,0 +1,16 @@
+[package]
+name = "purequad-macos-events"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "fmv-macos-events 0.1.0 (FastMarkdownViewer) plus the GetURL Apple event, for PureQuad Cloud links"
+publish = false
+
+# Vendored copy of https://crates.io/crates/fmv-macos-events 0.1.0 (MIT OR Apache-2.0) with one
+# addition: `Event::Url`, the kAEGetURL ('GURL') event macOS sends for a registered URL scheme
+# (`purequad-docs://…`). Unsafe code is confined to this crate, as in the original.
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6.4"
+objc2-app-kit = { version = "0.3.2", default-features = false, features = ["std", "NSApplication", "NSMenu", "NSMenuItem", "NSResponder", "NSWindow"] }
+objc2-foundation = { version = "0.3.2", default-features = false, features = ["std", "NSObject", "NSString", "NSURL", "NSNotification", "NSAppleEventDescriptor", "NSAppleEventManager"] }

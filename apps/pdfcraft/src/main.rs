@@ -25,13 +25,14 @@
 #![cfg_attr(all(windows, not(debug_assertions)), windows_subsystem = "windows")]
 #![deny(clippy::unwrap_used, clippy::expect_used, clippy::panic, clippy::unimplemented, clippy::todo, clippy::unreachable)]
 
-use std::cell::Cell;
+use std::cell::{Cell, RefCell};
 use std::rc::Rc;
 
 use pdfcraft_ui_egui::PdfCraftApp;
 
 #[cfg(target_os = "macos")]
 mod apple_events;
+mod cloud_links;
 mod compositor_gpu;
 mod decorations;
 mod logging;
@@ -219,6 +220,7 @@ fn main() -> eframe::Result {
         }
     }));
     let mut files = Vec::new();
+    let mut links = Vec::new();
     let mut options: Vec<(String, String)> = Vec::new();
     let mut control_file: Option<String> = None;
     let mut create_images = false;
@@ -236,6 +238,8 @@ fn main() -> eframe::Result {
                 let value = args.next().unwrap_or_default();
                 options.push((flag.trim_start_matches("--").to_string(), value));
             }
+            // Fork patch: a PureQuad Cloud link opens from the cloud (`cloud_links`).
+            _ if cloud_links::is_link(&a) => links.push(a),
             _ => files.push(path_from_arg(a)),
         }
     }
@@ -270,7 +274,7 @@ fn main() -> eframe::Result {
         single_instance::Claim::Alone => None,
     };
     let choice = renderer_choice(std::env::var("PDFCRAFT_RENDERER").ok().as_deref());
-    let launch = Launch { files, options, control_file, create_images, integrated, window_controls };
+    let launch = Launch { files, links, options, control_file, create_images, integrated, window_controls };
     // Finder, Open With and the Dock deliver files as Apple events, not arguments; catch the one
     // that launched us as well as later ones. Lives until the event loop returns.
     #[cfg(target_os = "macos")]
@@ -340,7 +344,7 @@ fn retry_with_gl(choice: RendererChoice, app_started: bool) -> bool {
 /// The window and renderer settings for one run.
 fn native_options(integrated: bool, app_frame: bool, renderer: eframe::Renderer) -> eframe::NativeOptions {
     let mut viewport = egui::ViewportBuilder::default()
-        .with_title("PdfCraft")
+        .with_title(pdfcraft_engine::links::APP_NAME)
         .with_inner_size([1440.0, 920.0])
         .with_min_inner_size([820.0, 520.0])
         .with_drag_and_drop(true)
@@ -374,6 +378,8 @@ fn native_options(integrated: bool, app_frame: bool, renderer: eframe::Renderer)
 #[derive(Clone)]
 struct Launch {
     files: Vec<String>,
+    /// PureQuad Cloud links (fork patch).
+    links: Vec<String>,
     options: Vec<(String, String)>,
     control_file: Option<String>,
     create_images: bool,
@@ -400,10 +406,14 @@ fn app_creator<'a>(
     instance: Option<&'a single_instance::Server>,
     #[cfg(target_os = "macos")] apple_events: &'a apple_events::AppleEvents,
 ) -> eframe::AppCreator<'a> {
-    let Launch { files, options, control_file, create_images, integrated, window_controls } = launch;
+    let Launch { files, links, options, control_file, create_images, integrated, window_controls } = launch;
     Box::new(move |cc| {
         started.set(true);
         let mut app = PdfCraftApp::new();
+        let cloud = Rc::new(RefCell::new(cloud_links::CloudLinks::new(pdfcraft_engine::links::APP_NAME)));
+        for link in &links {
+            cloud.borrow_mut().start(link);
+        }
         // First start (or settings from before Units existed): the region's unit.
         app.units = pdfcraft_ui_egui::units::Unit::system();
         #[cfg(target_os = "linux")]
@@ -423,12 +433,13 @@ fn app_creator<'a>(
         {
             app.motion.source = Some(motion::source());
         }
-        app.set_startup_update_check(true);
+        // Fork patch: no check against upstream releases; PureQuad Cloud › Aplicații has the kits.
+        app.set_startup_update_check(false);
         app.printer_source = Some(pdfcraft_ui_egui::system_printers());
         app.os_key_store_ids = cfg!(any(target_os = "macos", target_os = "windows"));
         #[cfg(target_os = "macos")]
         {
-            app.os_events = Some(apple_events.connect(&cc.egui_ctx));
+            app.os_events = Some(apple_events.connect(&cc.egui_ctx, cloud.clone()));
             // The native menu bar. Its Quit (⌘Q) closes the window rather than ending the process as
             // winit's does (#1136), so `guard_quit` asks about unsaved changes, as for the close
             // button.
@@ -484,7 +495,28 @@ fn app_creator<'a>(
                 log::warn!("--{k} {v}: {e}");
             }
         }
+        // Fork patch: PureQuad Cloud working copies arrive as files to open, sync news as notices.
+        app.os_events = Some(cloud_events(app.os_events.take(), cloud, cc.egui_ctx.clone()));
         Ok(Box::new(app))
+    })
+}
+
+/// Fork patch: the system's events (`inner`), then what the PureQuad Cloud links produced.
+fn cloud_events(
+    mut inner: Option<pdfcraft_ui_egui::OsEventsFn>,
+    cloud: Rc<RefCell<cloud_links::CloudLinks>>,
+    ctx: egui::Context,
+) -> pdfcraft_ui_egui::OsEventsFn {
+    use pdfcraft_ui_egui::OsEvent;
+    Box::new(move || {
+        let mut events = inner.as_mut().map(|poll| poll()).unwrap_or_default();
+        for action in cloud.borrow_mut().poll(&ctx) {
+            events.push(match action {
+                cloud_links::Action::Open(path) => OsEvent::Open(vec![path.to_string_lossy().into_owned()]),
+                cloud_links::Action::Status(s) => OsEvent::Notice(s),
+            });
+        }
+        events
     })
 }
 

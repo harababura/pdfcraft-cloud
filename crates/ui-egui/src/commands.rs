@@ -189,6 +189,17 @@ impl PdfCraftApp {
             "file.save_as" => {
                 self.save_active(SaveTarget::As);
             }
+            // Fork patch: the PureQuad Cloud window is drawn by the app (`cloud_links.rs`).
+            "file.cloud_open" => purequad_cloud::requests::request(purequad_cloud::requests::Request::Browse),
+            "file.cloud_save" => {
+                if let Some(i) = active {
+                    // Saved on this computer first, so the cloud gets what is on screen.
+                    self.save_then(i, SaveTarget::InPlace, move |app| {
+                        let path = app.views.get(i).and_then(|v| app.session.get(v.id)).and_then(|d| d.path.clone());
+                        purequad_cloud::requests::save_copy(path.map(std::path::PathBuf::from));
+                    });
+                }
+            }
             "file.close" => {
                 if let Some(i) = active {
                     self.request_close_tab(i);
@@ -246,7 +257,8 @@ impl PdfCraftApp {
             "optimize.reduce" => self.reduce_file_size(),
             "help.shortcuts" => self.dialog = Some(Dialog::Shortcuts),
             "help.about" => self.dialog = Some(Dialog::About),
-            "help.check_updates" => self.check_for_updates(),
+            // Fork patch: new versions are published in PureQuad Cloud › Aplicații, not upstream.
+            "help.check_updates" => self.open_url(pdfcraft_engine::links::APP_PAGE),
             _ => return None,
         }
         Some(true)

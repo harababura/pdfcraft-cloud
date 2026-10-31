@@ -21,7 +21,7 @@ use crate::{PdfCraftApp, RightPanel};
 pub(super) mod tab_context;
 
 /// The app's name in the menus the layouts write (About, Hide, Quit).
-pub(crate) const APP_NAME: &str = "PdfCraft";
+pub(crate) const APP_NAME: &str = pdfcraft_engine::links::APP_NAME;
 
 /// The top bar's width after the menus: the mode tabs, the search box and the buttons.
 const ROW_AFTER_MENUS: f32 = 720.0;
@@ -111,11 +111,13 @@ const FILE: &[&str] = &[
     "file.open",
     "file.open_recent",
     "file.pin_folder",
+    "file.cloud_open",
     SEP,
     "page.combine",
     SEP,
     "file.save",
     "file.save_as",
+    "file.cloud_save",
     "file.revert",
     SEP,
     "file.close",

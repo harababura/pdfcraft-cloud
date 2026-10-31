@@ -13,6 +13,8 @@ pub enum OsEvent {
     Open(Vec<String>),
     /// Quit (the Dock's Quit, logging out), asking about unsaved changes first.
     Quit,
+    /// Fork patch: show this message (PureQuad Cloud news: opened, saved, not saved).
+    Notice(String),
 }
 
 /// Returns the [`OsEvent`]s that arrived since it was last called (set by the desktop app).

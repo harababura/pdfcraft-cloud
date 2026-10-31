@@ -7,13 +7,13 @@
   <key>CFBundleDevelopmentRegion</key>
   <string>en</string>
   <key>CFBundleDisplayName</key>
-  <string>PdfCraft</string>
+  <string>PureQuad PDF</string>
   <key>CFBundleName</key>
-  <string>PdfCraft</string>
+  <string>PureQuad PDF</string>
   <key>CFBundleExecutable</key>
   <string>PdfCraft</string>
   <key>CFBundleIdentifier</key>
-  <string>ai.storyteller.pdfcraft</string>
+  <string>ro.purequad.pdf</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundlePackageType</key>
@@ -43,7 +43,7 @@
   <key>NSRequiresAquaSystemAppearance</key>
   <false/>
   <key>NSHumanReadableCopyright</key>
-  <string>Copyright © the PdfCraft authors. MIT OR Apache-2.0.</string>
+  <string>PureQuad. Based on PdfCraft (MIT OR Apache-2.0).</string>
 
   <!-- Documents PdfCraft opens (#73): it is offered under Open With and can be made the default
        for PDFs, without taking over from the system's viewer on install ("Alternate"). Declared by
@@ -70,5 +70,16 @@
     </dict>
   </array>
 
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>PureQuad PDF PureQuad Cloud link</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>purequad-pdf</string>
+      </array>
+    </dict>
+  </array>
 </dict>
 </plist>

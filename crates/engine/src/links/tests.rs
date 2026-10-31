@@ -111,9 +111,10 @@ fn remote_document_paths_to_other_computers_and_devices_are_refused() {
 }
 
 #[test]
-fn urls_follow_the_artcraft_scheme() {
-    assert_eq!(super::APP_PAGE, format!("{}/apps/{}", super::WEBSITE, super::APP));
-    assert_eq!(super::GITHUB, format!("https://github.com/storytold/{}", super::APP));
+fn urls_follow_the_purequad_scheme() {
+    // Fork patch: PureQuad links instead of the ArtCraft ones.
+    assert_eq!(super::APP_PAGE, format!("{}/aplicatii", super::WEBSITE));
+    assert_eq!(super::GITHUB, format!("https://github.com/harababura/{}-cloud", super::APP));
     for l in super::LINKS {
         assert!(l.url.starts_with("https://"), "{}", l.url);
         assert!(crate::commands::command(l.command).is_some(), "{} is a registered command", l.command);

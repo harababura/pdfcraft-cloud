@@ -159,7 +159,7 @@
 	Next page	Pàgina següent
 	Previous page	Pàgina anterior
 	Current page — type a page number or label (such as iv) and press Enter	Pàgina actual — escriu un número o una etiqueta de pàgina (com ara iv) i prem Retorn
-	Welcome to PdfCraft	Et donem la benvinguda a PdfCraft
+	Welcome to PureQuad PDF	Et donem la benvinguda a PureQuad PDF
 	An open-source PDF workbench — local, private, and scriptable.	Un banc de treball de PDF de codi obert — local, privat i programable.
 	Join the ArtCraft community	Uneix-te a la comunitat d'ArtCraft
 	Get help, share feedback and follow development on Discord.	Obtén ajuda, comparteix comentaris i segueix el desenvolupament a Discord.
@@ -167,9 +167,9 @@
 	Use now	Utilitza-ho ara
 	Open file	Obre el fitxer
 	Recent	Recents
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Els fitxers que obris a PdfCraft apareixen aquí. Deixa anar un PDF en qualsevol lloc per obrir-lo.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	Els fitxers que obris a PureQuad PDF apareixen aquí. Deixa anar un PDF en qualsevol lloc per obrir-lo.
 	Privacy	Privadesa
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft funciona sense connexió. Sense telemetria, sense compte i sense processament al núvol tret que afegeixis un proveïdor.
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF funciona sense connexió. Sense telemetria, sense compte i sense processament al núvol tret que afegeixis un proveïdor.
 	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	Els scripts s'executen en un entorn aïllat sense accés a fitxers ni a la xarxa. Amb JavaScript desactivat, les funcions estàndard de format, validació i càlcul d'Acrobat continuen funcionant.
 	Back to all tools	Torna a totes les eines
 	Close panel	Tanca el tauler
@@ -898,8 +898,8 @@
 	No changes allowed	No es permet cap canvi
 	Annotations, form fill-in, and digital signatures	Anotacions, emplenament de formularis i signatures digitals
 	Form fill-in and digital signatures	Emplenament de formularis i signatures digitals
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	La clau és al clauer de macOS, que pot demanar permís perquè PdfCraft la utilitzi.
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	La clau és al magatzem de certificats de Windows, que pot demanar permís perquè PdfCraft la utilitzi.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	La clau és al clauer de macOS, que pot demanar permís perquè PureQuad PDF la utilitzi.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	La clau és al magatzem de certificats de Windows, que pot demanar permís perquè PureQuad PDF la utilitzi.
 	Digital ID password	Contrasenya de l'identificador digital
 	Back	Enrere
 	Validate all	Valida-ho tot
@@ -1260,7 +1260,7 @@
 	Downsample to	Redueix la resolució a
 	Also recognize pages that already have text	Reconeix també les pàgines que ja tenen text
 	Pictures on those pages are recognized too; words already in the page's text are not added again	També es reconeixen les imatges d'aquestes pàgines; les paraules que ja són al text de la pàgina no es tornen a afegir
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	El reconeixement de text no està instal·lat: falten els seus fitxers de model. Reinstal·la PdfCraft o defineix PDFCRAFT_MODELS amb la carpeta que els conté.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	El reconeixement de text no està instal·lat: falten els seus fitxers de model. Reinstal·la PureQuad PDF o defineix PDFCRAFT_MODELS amb la carpeta que els conté.
 	Settings	Configuració
 	Optional	Opcional
 	Planned · {m}	Previst · {m}
@@ -1404,7 +1404,7 @@
 	Anyone opening the document will need this password. It's applied when you save.	Qualsevol persona que obri el document necessitarà aquesta contrasenya. S'aplica en desar.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	El document s'obre sense contrasenya; aquesta contrasenya cal per canviar les restriccions. S'aplica en desar.
 	Recover unsaved documents?	Vols recuperar els documents no desats?
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft no s'ha tancat amb normalitat. Aquests documents tenien canvis desats automàticament:
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF no s'ha tancat amb normalitat. Aquests documents tenien canvis desats automàticament:
 	just now	ara mateix
 	{n} min ago	fa {n} min
 	{n} h ago	fa {n} h
@@ -1562,10 +1562,10 @@
 	On the web, open or drop an image to convert it	Al web, obre o deixa anar una imatge per convertir-la
 	Couldn't optimize the file: {e}	No s'ha pogut optimitzar el fitxer: {e}
 	Couldn't write {path}: {e}	No s'ha pogut escriure {path}: {e}
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	El formulari demana que s'enviï a {u}; PdfCraft no envia dades de formularis. Desa el document per conservar les dades introduïdes.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	El formulari demana que s'enviï a {u}; PureQuad PDF no envia dades de formularis. Desa el document per conservar les dades introduïdes.
 	This PDF uses the unsupported {s} action.	Aquest PDF utilitza l'acció {s}, que no és compatible.
 	{name}: the {other} action isn't supported yet	{name}: l'acció {other} encara no és compatible
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} envia el formulari a {url}; PdfCraft no envia dades de formularis. Desa el document per conservar les dades introduïdes.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} envia el formulari a {url}; PureQuad PDF no envia dades de formularis. Desa el document per conservar les dades introduïdes.
 	Export stopped: {e}	Exportació aturada: {e}
 	Exported 1 image	S'ha exportat 1 imatge
 	Exported {n} images	S'han exportat {n} imatges
@@ -1807,7 +1807,7 @@ action wizard	Start	Inicia
 	Signed and all signatures are valid.	Signat i totes les signatures són vàlides.
 	At least one signature has problems.	Almenys una signatura té problemes.
 	This document is secured. Some changes are restricted by its security settings.	Aquest document està protegit. Alguns canvis estan restringits per la seva configuració de seguretat.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	Aquest és un formulari XFA dinàmic, que PdfCraft encara no pot mostrar. El que veus és la pàgina de substitució del fitxer.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	Aquest és un formulari XFA dinàmic, que PureQuad PDF encara no pot mostrar. El que veus és la pàgina de substitució del fitxer.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Aquest formulari també conté dades XFA, que PdfCraft encara no llegeix. Pots emplenar-ne els camps, però Acrobat pot mostrar els valors XFA.
 	This document contains {n} interactive form fields.	Aquest document conté {n} camps de formulari interactius.
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Aquest fitxer estava malmès i s'ha reparat. En desar, es conserva la versió reparada.
@@ -2123,7 +2123,7 @@ action wizard	Start	Inicia
 	% of all commits	% de totes les contribucions
 	Lines +/−	Línies +/−
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PR, {commits} contribucions, +{added} / −{deleted} línies (Δ {delta}), +{bin_added} / −{bin_deleted} recursos binaris, {first} – {last}
-	Reopen the files that were open when PdfCraft last closed	Reobre els fitxers que eren oberts l'última vegada que es va tancar PdfCraft
+	Reopen the files that were open when PureQuad PDF last closed	Reobre els fitxers que eren oberts l'última vegada que es va tancar PureQuad PDF
 	Add {what}	Afegeix {what}
 	Use {what}	Utilitza {what}
 	Place saved {what}	Col·loca {what} desats
@@ -2131,8 +2131,8 @@ action wizard	Start	Inicia
 	A link	Un enllaç
 	A button	Un botó
 	A script	Un script
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} d'aquest document ha intentat obrir una adreça que PdfCraft no obre: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} d'aquest document ha intentat obrir una adreça que PdfCraft no obre: {e}. Als documents només s'hi poden obrir enllaços web (http, https) i de correu electrònic (mailto).
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	{who} d'aquest document ha intentat obrir una adreça que PureQuad PDF no obre: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} d'aquest document ha intentat obrir una adreça que PureQuad PDF no obre: {e}. Als documents només s'hi poden obrir enllaços web (http, https) i de correu electrònic (mailto).
 	Another file dialog is still open. Finish with it first.	Hi ha un altre diàleg de fitxers obert. Acaba'l primer.
 	Couldn't show the file picker. Please try again.	No s'ha pogut mostrar el selector de fitxers. Torna-ho a provar.
 	The document changed while you were choosing a file, so nothing was changed.	El document ha canviat mentre triaves un fitxer, de manera que no s'ha modificat res.
@@ -2183,8 +2183,8 @@ action wizard	Start	Inicia
 	For page sizes and margins.	Per a les mides de pàgina i els marges.
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	Els tipus de lletra de text del PDF no poden dibuixar “{c}” ({code}). Tria un text compatible.
 	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	Els tipus de lletra estàndard no poden dibuixar “{c}” ({code}). De moment només es poden afegir com a text caràcters d'Europa occidental.
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	El tipus de lletra d'aquest camp no pot dibuixar “{c}” ({code}), de manera que PdfCraft hi mostra un ?. El valor es desa i altres visors de PDF tornen a dibuixar el camp a partir d'ell.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Els tipus de lletra amb què escriu PdfCraft no poden dibuixar “{c}” ({code}), de manera que es mostra com a ? a tots els visors de PDF. El text es desa.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	El tipus de lletra d'aquest camp no pot dibuixar “{c}” ({code}), de manera que PureQuad PDF hi mostra un ?. El valor es desa i altres visors de PDF tornen a dibuixar el camp a partir d'ell.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Els tipus de lletra amb què escriu PureQuad PDF no poden dibuixar “{c}” ({code}), de manera que es mostra com a ? a tots els visors de PDF. El text es desa.
 	Open arrow	Fletxa oberta
 	Closed arrow	Fletxa tancada
 	Butt	Pla
@@ -2441,7 +2441,7 @@ animation effects	Off	Desactivats
 	no output folder was chosen	no s'ha triat cap carpeta de sortida
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	S'ha baixat {n} PDF|S'han baixat {n} PDF
 	Scan	Escaneja
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Signa un full de paper blanc i fes-ne una foto amb llum intensa i uniforme (utilitza el flaix). Tria la foto o deixa-la anar aquí: PdfCraft troba la signatura i elimina el paper.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	Signa un full de paper blanc i fes-ne una foto amb llum intensa i uniforme (utilitza el flaix). Tria la foto o deixa-la anar aquí: PureQuad PDF troba la signatura i elimina el paper.
 	Choose photo…	Tria una foto…
 	No photo chosen	No s'ha triat cap foto
 	Photo	Foto

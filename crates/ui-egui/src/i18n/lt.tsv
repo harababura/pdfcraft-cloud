@@ -560,7 +560,7 @@
 	Files are combined from top to bottom. Leave Pages empty to take every page.	Failai jungiami iš viršaus į apačią. Palikite lauką „Puslapiai“ tuščią, jei norite įtraukti visus puslapius.
 	Files are combined in the order shown. Drag them to change it.	Failai sujungiami rodoma tvarka. Vilkite juos, kad ją pakeistumėte.
 	Files for {name}	Failai: {name}
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Čia rodomi „PdfCraft“ atverti failai. Įkelkite PDF bet kurioje vietoje, kad jį atvertumėte.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	Čia rodomi „PureQuad PDF“ atverti failai. Įkelkite PDF bet kurioje vietoje, kad jį atvertumėte.
 	Fill & Sign dates	Datos pildymo ir pasirašymo įrankyje
 	Fill & Sign signature	Parašas pildymo ir pasirašymo įrankyje
 	Fill Color:	Užpildo spalva:
@@ -911,8 +911,8 @@
 	Pattern	Šablonas
 	Patterns	Šablonai
 	Patterns (graphics objects)	Šablonai (grafiniai objektai)
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	„PdfCraft“ buvo uždaryta netinkamai. Šių dokumentų pakeitimai buvo automatiškai įrašyti:
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	„PdfCraft“ veikia neprisijungus. Nerenkami telemetrijos duomenys, nereikia paskyros ir nenaudojamos debesijos paslaugos, nebent pridėtumėte jų teikėją.
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	„PureQuad PDF“ buvo uždaryta netinkamai. Šių dokumentų pakeitimai buvo automatiškai įrašyti:
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	„PureQuad PDF“ veikia neprisijungus. Nerenkami telemetrijos duomenys, nereikia paskyros ir nenaudojamos debesijos paslaugos, nebent pridėtumėte jų teikėją.
 	PdfCraft {v} is available.	Išleista „PdfCraft“ versija {v}.
 	Percentage	Procentai
 	Permissions password	Teisių slaptažodis
@@ -990,7 +990,7 @@
 	Remove {n} files	Pašalinti failų: {n}
 	Remove {n} pages	Pašalinti puslapių: {n}
 	Reopen Closed Tab	Vėl atverti užvertą kortelę
-	Reopen the files that were open when PdfCraft last closed	Vėl atverti failus, kurie buvo atverti paskutinį kartą užveriant „PdfCraft“
+	Reopen the files that were open when PureQuad PDF last closed	Vėl atverti failus, kurie buvo atverti paskutinį kartą užveriant „PureQuad PDF“
 	Restore the last view (page, zoom and page display) when a document is opened again	Iš naujo atidarant dokumentą atkurti paskutinį rodinį (puslapį, mastelį ir puslapių rodymą)
 	Repair log	Taisymo žurnalas
 	Repeat overlay text	Kartoti perdangos tekstą
@@ -1192,7 +1192,7 @@
 	Text alignment:	Teksto lygiuotė:
 	Text in images isn't found; recognise text (OCR) first.	Paveikslėliuose esantis tekstas nerandamas; pirmiausia atpažinkite tekstą (OCR).
 	Text is compared word by word; the differences are shown on the new file.	Tekstas lyginamas žodis po žodžio; skirtumai rodomi naujame faile.
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	Teksto atpažinimas neįdiegtas: trūksta modelio failų. Iš naujo įdiekite „PdfCraft“ arba nustatykite PDFCRAFT_MODELS aplanką, kuriame jie laikomi.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	Teksto atpažinimas neįdiegtas: trūksta modelio failų. Iš naujo įdiekite „PureQuad PDF“ arba nustatykite PDFCRAFT_MODELS aplanką, kuriame jie laikomi.
 	Text to find	Ieškomas tekstas
 	Text to insert	Įterpiamas tekstas
 	Text used as a clipping path cannot be moved with this selection.	Teksto, naudojamo kaip iškarpymo kelias, negalima perkelti pasirinkus šį objektą.
@@ -1208,9 +1208,9 @@
 	The document's security settings don't allow printing	Dokumento saugos nuostatos neleidžia spausdinti
 	The document's security settings don't allow this change	Dokumento saugos nuostatos neleidžia atlikti šio pakeitimo
 	The existing action will be preserved.	Esamas veiksmas bus išsaugotas.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	„PdfCraft“ naudojami šriftai negali atvaizduoti simbolio „{c}“ ({code}), todėl visose PDF žiūryklėse jis rodomas kaip ?. Tekstas įrašytas.
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	Raktas saugomas „Windows“ sertifikatų saugykloje; gali būti paprašyta leisti „PdfCraft“ juo naudotis.
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	Raktas saugomas „macOS“ raktinėje; gali būti paprašyta leisti „PdfCraft“ juo naudotis.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	„PureQuad PDF“ naudojami šriftai negali atvaizduoti simbolio „{c}“ ({code}), todėl visose PDF žiūryklėse jis rodomas kaip ?. Tekstas įrašytas.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	Raktas saugomas „Windows“ sertifikatų saugykloje; gali būti paprašyta leisti „PureQuad PDF“ juo naudotis.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	Raktas saugomas „macOS“ raktinėje; gali būti paprašyta leisti „PureQuad PDF“ juo naudotis.
 	The newest {n} of {total} PDFs	Naujausi PDF failai: {n} iš {total}
 	The password is only used to read the file; it isn't saved.	Slaptažodis naudojamas tik failui perskaityti ir nėra įrašomas.
 	The printer driver's own settings for this print: paper tray, paper type, finishing and more.	Šio spausdinimo spausdintuvo tvarkyklės nuostatos: popieriaus dėklas, popieriaus tipas, apdaila ir kita.
@@ -1251,7 +1251,7 @@
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Failas buvo pažeistas ir pataisytas. Įrašius bus išsaugota pataisyta versija.
 	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	Aplankas šiuo metu nepasiekiamas. Jis galėjo būti perkeltas arba diskas ar sinchronizavimas su debesija neveikia.
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	Šios formos scenarijai išjungti, nes vienas jų veikė per ilgai. Atverkite dokumentą iš naujo, kad scenarijai būtų vykdomi vėl.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	Tai dinaminė XFA forma, kurios „PdfCraft“ dar negali rodyti. Matote faile esantį pakaitinį puslapį.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	Tai dinaminė XFA forma, kurios „PureQuad PDF“ dar negali rodyti. Matote faile esantį pakaitinį puslapį.
 	This measurement needs at least {n} points.	Šiam matavimui reikia bent {n} taškų.
 	This page contains objects that cannot be selected together.	Šiame puslapyje yra objektų, kurių negalima pasirinkti kartu.
 	This page couldn't be displayed.\n{e}	Nepavyko parodyti šio puslapio.\n{e}
@@ -1329,7 +1329,7 @@
 	Visible Rectangle	Matomo stačiakampio anotacija
 	Visual	Vaizdinis
 	Warnings	Įspėjimai
-	Welcome to PdfCraft	Sveiki atvykę į „PdfCraft“
+	Welcome to PureQuad PDF	Sveiki atvykę į „PureQuad PDF“
 	What word or phrase would you like to search for?	Kokio žodžio ar frazės norite ieškoti?
 	Whole words only	Tik ištisi žodžiai
 	Width:	Plotis:
@@ -2410,7 +2410,7 @@ comment menu	Edit	Redaguoti
 	The document's security settings don't allow filling in form fields	Dokumento saugos nuostatos neleidžia pildyti formos laukų
 	The field properties could not be changed.	Nepavyko pakeisti lauko savybių.
 	The field properties dialog is no longer open.	Lauko savybių dialogas jau užvertas.
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Forma prašo pateikti duomenis į {u}; „PdfCraft“ formos duomenų nesiunčia. Įrašykite dokumentą, kad išsaugotumėte įvestas reikšmes.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	Forma prašo pateikti duomenis į {u}; „PureQuad PDF“ formos duomenų nesiunčia. Įrašykite dokumentą, kad išsaugotumėte įvestas reikšmes.
 	The form asks viewers to make appearances (NeedAppearances)	Forma prašo žiūryklių sukurti laukų išvaizdą (NeedAppearances)
 	The linked PDF opened, but its named destination was not applied.	Susietas PDF atvertas, tačiau pavadinta paskirties vieta nepritaikyta.
 	The linked PDF opened, but its page destination was out of range.	Susietas PDF atvertas, tačiau paskirties puslapis nepatenka į puslapių intervalą.
@@ -2497,19 +2497,19 @@ comment menu	Edit	Redaguoti
 	{label} failed: {e}	Veiksmas {label} nepavyko: {e}
 	{name} has no action	{name} neturi veiksmo
 	{name} is too large for a word list (at most 1 MB).	{name} per didelis žodžių sąrašui (leidžiama iki 1 MB).
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} pateikia formą į {url}; „PdfCraft“ formos duomenų nesiunčia. Įrašykite dokumentą, kad išsaugotumėte įvestas reikšmes.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} pateikia formą į {url}; „PureQuad PDF“ formos duomenų nesiunčia. Įrašykite dokumentą, kad išsaugotumėte įvestas reikšmes.
 	{name}: choosing images arrives on the web with file pickers for images	{name}: žiniatinklio versijoje paveikslėlius bus galima pasirinkti įdiegus jų failų pasirinkimą
 	{name}: the {other} action isn't supported yet	{name}: veiksmas {other} dar nepalaikomas
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	Šiame dokumente {who} bandė atverti adresą, kurio „PdfCraft“ neatveria: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	Šiame dokumente {who} bandė atverti adresą, kurio „PdfCraft“ neatveria: {e}. Iš dokumentų atveriami tik žiniatinklio (http, https) ir el. pašto (mailto) saitai.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	Šiame dokumente {who} bandė atverti adresą, kurio „PureQuad PDF“ neatveria: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	Šiame dokumente {who} bandė atverti adresą, kurio „PureQuad PDF“ neatveria: {e}. Iš dokumentų atveriami tik žiniatinklio (http, https) ir el. pašto (mailto) saitai.
 animation effects	Off	Išjungta
 animation effects	On	Įjungta
 	View more	Rodyti daugiau
 	View less	Rodyti mažiau
 	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	Tęskite tik jei pasitikite šiuo dokumentu. Adresu gali būti perduota dokumento informacija, pavyzdžiui, tai, ką įvedėte į jo formą.
 	Print single-sided. Keep the sheets in order, cut at the marks, then stack the piles left to right, top to bottom.	Spausdinkite vienpusiškai. Išlaikykite lapų tvarką, pjaukite ties žymomis, tada sudėkite krūveles iš kairės į dešinę ir iš viršaus į apačią.
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Pasirašykite ant balto popieriaus lapo ir nufotografuokite jį esant ryškiam, tolygiam apšvietimui (naudokite blykstę). Pasirinkite nuotrauką arba nuvilkite ją čia: „PdfCraft“ suras parašą ir pašalins popieriaus foną.
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Šio lauko šriftas negali atvaizduoti simbolio „{c}“ ({code}), todėl „PdfCraft“ vietoj jo rodo ?. Reikšmė įrašoma, o kitos PDF žiūryklės pagal ją iš naujo atvaizduoja lauką.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	Pasirašykite ant balto popieriaus lapo ir nufotografuokite jį esant ryškiam, tolygiam apšvietimui (naudokite blykstę). Pasirinkite nuotrauką arba nuvilkite ją čia: „PureQuad PDF“ suras parašą ir pašalins popieriaus foną.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Šio lauko šriftas negali atvaizduoti simbolio „{c}“ ({code}), todėl „PureQuad PDF“ vietoj jo rodo ?. Reikšmė įrašoma, o kitos PDF žiūryklės pagal ją iš naujo atvaizduoja lauką.
 	{chars} can't be written into the PDF yet: Fill & Sign text is Western European only. Pick a numeric format such as dd.mm.yyyy.	Simbolių {chars} dar negalima įrašyti į PDF: pildymo ir pasirašymo tekstui palaikomi tik Vakarų Europos simboliai. Pasirinkite skaitinį formatą, pvz., dd.mm.yyyy.
 	January	sausis
 	February	vasaris

@@ -572,8 +572,8 @@
 	No changes allowed	不允許任何更改
 	Annotations, form fill-in, and digital signatures	註解、填寫表單和數位簽章
 	Form fill-in and digital signatures	填寫表單和數位簽章
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	金鑰位於 macOS 鑰匙串中，系統可能會詢問是否允許 PdfCraft 使用它。
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	金鑰位於 Windows 憑證存放區中，系統可能會詢問是否允許 PdfCraft 使用它。
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	金鑰位於 macOS 鑰匙串中，系統可能會詢問是否允許 PureQuad PDF 使用它。
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	金鑰位於 Windows 憑證存放區中，系統可能會詢問是否允許 PureQuad PDF 使用它。
 	Digital ID password	數位 ID 密碼
 	Back	返回
 	Validate all	全部驗證
@@ -949,7 +949,7 @@
 	Downsample to	降取樣至
 	Also recognize pages that already have text	同時辨識已有文字的頁面
 	Pictures on those pages are recognized too; words already in the page's text are not added again	這些頁面上的圖片也會被辨識；頁面文字中已有的字詞不會重複加入
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	未安裝文字辨識：缺少模型檔案。請重新安裝 PdfCraft，或將 PDFCRAFT_MODELS 設定為包含這些檔案的資料夾。
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	未安裝文字辨識：缺少模型檔案。請重新安裝 PureQuad PDF，或將 PDFCRAFT_MODELS 設定為包含這些檔案的資料夾。
 	Settings	設定
 	Protect	保護
 	Advanced options	進階選項
@@ -1345,7 +1345,7 @@
 	Anyone opening the document will need this password. It's applied when you save.	開啟文件的任何人都需要此密碼。儲存時套用。
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	開啟文件無需密碼；更改限制需要此密碼。儲存時套用。
 	Recover unsaved documents?	要恢復未儲存的文件嗎？
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft 未正常關閉。以下文件的更改已自動儲存：
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF 未正常關閉。以下文件的更改已自動儲存：
 	just now	剛剛
 	{n} min ago	{n} 分鐘前
 	{n} h ago	{n} 小時前
@@ -1516,10 +1516,10 @@
 	On the web, open or drop an image to convert it	在 Web 端，開啟或拖入圖片進行轉換
 	Couldn't optimize the file: {e}	無法最佳化檔案：{e}
 	Couldn't write {path}: {e}	無法寫入{path}：{e}
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	該表單請求送出到{u}；PdfCraft 不傳送表單資料。請儲存文件以保留填寫內容。
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	該表單請求送出到{u}；PureQuad PDF 不傳送表單資料。請儲存文件以保留填寫內容。
 	This PDF uses the unsupported {s} action.	此 PDF 使用了不支援的 {s} 動作。
 	{name}: the {other} action isn't supported yet	{name}：{other} 動作暫不受支援
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} 將表單送出到{url}；PdfCraft 不傳送表單資料。請儲存文件以保留填寫內容。
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} 將表單送出到{url}；PureQuad PDF 不傳送表單資料。請儲存文件以保留填寫內容。
 	Export stopped: {e}	匯出中止：{e}
 	Exported 1 image	已匯出 1 張圖片
 	Exported {n} images	已匯出{n}張圖片
@@ -1759,7 +1759,7 @@
 	Signed and all signatures are valid.	已簽名，所有簽名均有效。
 	At least one signature has problems.	至少一個簽名存在問題。
 	This document is secured. Some changes are restricted by its security settings.	本文件已加密。其安全設定限制了部分更改。
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	這是動態 XFA 表單，PdfCraft 暫無法顯示。您看到的是檔案的佔位頁面。
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	這是動態 XFA 表單，PureQuad PDF 暫無法顯示。您看到的是檔案的佔位頁面。
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	此表單的指令碼已關閉，因為其中一個指令碼執行時間過長。重新開啟文件即可再次執行。
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	此表單還包含 XFA 資料，PdfCraft 暫不讀取。您可以填寫欄位，但 Acrobat 可能顯示 XFA 值。
 	This document contains {n} interactive form fields.	本文件包含 {n} 個互動式表單欄位。
@@ -1809,7 +1809,7 @@
 	Read	閱讀
 	Convert	轉換
 	E-Sign	電子簽署
-	Welcome to PdfCraft	歡迎使用 PdfCraft
+	Welcome to PureQuad PDF	歡迎使用 PureQuad PDF
 	An open-source PDF workbench — local, private, and scriptable.	開源 PDF 工作台，在本機處理、保護隱私，並支援指令碼。
 	Recommended tools	推薦工具
 	Use now	立即使用
@@ -1862,8 +1862,8 @@
 	Add background…	新增背景…
 	Prepare a form	準備表單
 	Digitally sign	數位簽署
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	在 PdfCraft 開啟過的檔案會顯示在這裡。將 PDF 拖曳至視窗即可開啟。
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft 可離線使用，不收集遙測資料，也不需要帳號。只有在您新增服務供應商後，才會使用雲端處理。
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	在 PureQuad PDF 開啟過的檔案會顯示在這裡。將 PDF 拖曳至視窗即可開啟。
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF 可離線使用，不收集遙測資料，也不需要帳號。只有在您新增服務供應商後，才會使用雲端處理。
 	Double-click	滑鼠按兩下
 	PDF/A…	PDF/A…
 	Microsoft Word (.docx)	Microsoft Word（.docx）
@@ -2118,12 +2118,12 @@
 	Couldn't import the signature image: {e}	無法匯入簽名圖像：{e}
 	Go to page…	轉到頁面…
 	For page sizes and margins.	用於頁面尺寸和邊距。
-	Reopen the files that were open when PdfCraft last closed	重新開啟上次關閉 PdfCraft 時開啟的檔案
+	Reopen the files that were open when PureQuad PDF last closed	重新開啟上次關閉 PureQuad PDF 時開啟的檔案
 	Restore the last view (page, zoom and page display) when a document is opened again	再次開啟文件時還原上次的檢視（頁面、縮放與頁面顯示）
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	PDF 文字字型無法顯示「{c}」（{code}）。請選擇支援的文字。
 	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	標準字型無法顯示「{c}」（{code}）。目前只能新增西歐字元作為文字。
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	此欄位的字型無法顯示「{c}」（{code}），PdfCraft 會在該處顯示 ?。值已儲存，其他 PDF 閱讀器會依據該值重新繪製此欄位。
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	PdfCraft 寫入時使用的字型無法顯示「{c}」（{code}），因此它在所有 PDF 閱讀器中都會顯示為 ?。文字已儲存。
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	此欄位的字型無法顯示「{c}」（{code}），PureQuad PDF 會在該處顯示 ?。值已儲存，其他 PDF 閱讀器會依據該值重新繪製此欄位。
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	PureQuad PDF 寫入時使用的字型無法顯示「{c}」（{code}），因此它在所有 PDF 閱讀器中都會顯示為 ?。文字已儲存。
 	Open arrow	開口箭頭
 	Closed arrow	閉合箭頭
 	Butt	平頭
@@ -2286,7 +2286,7 @@ animation effects	Off	關
 @plural	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.	{fields} 在執行時才組出部分欄位名稱，因此這些讀取不會被檢查。
 @plural	{fields} is missing|{fields} are missing	缺少 {fields}
 	Scan	掃描
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	在白紙上簽名，並在明亮、均勻的光線下拍照（使用閃光燈）。選擇相片或將其拖放到此處：PdfCraft 會找到簽名並去除紙張背景。
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	在白紙上簽名，並在明亮、均勻的光線下拍照（使用閃光燈）。選擇相片或將其拖放到此處：PureQuad PDF 會找到簽名並去除紙張背景。
 	Choose photo…	選擇相片…
 	No photo chosen	未選擇相片
 	Photo	相片

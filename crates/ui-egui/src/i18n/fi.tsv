@@ -159,7 +159,7 @@
 	Next page	Seuraava sivu
 	Previous page	Edellinen sivu
 	Current page — type a page number or label (such as iv) and press Enter	Nykyinen sivu – kirjoita sivunumero tai -tunniste (kuten iv) ja paina Enter
-	Welcome to PdfCraft	Tervetuloa PdfCraftiin
+	Welcome to PureQuad PDF	Tervetuloa PureQuad PDFiin
 	An open-source PDF workbench — local, private, and scriptable.	Avoimen lähdekoodin PDF-työpöytä – paikallinen, yksityinen ja skriptattava.
 	Join the ArtCraft community	Liity ArtCraft-yhteisöön
 	Get help, share feedback and follow development on Discord.	Hae apua, anna palautetta ja seuraa kehitystä Discordissa.
@@ -167,9 +167,9 @@
 	Use now	Käytä nyt
 	Open file	Avaa tiedosto
 	Recent	Viimeisimmät
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	PdfCraftissa avatut tiedostot näkyvät tässä. Avaa PDF pudottamalla se mihin tahansa.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	PureQuad PDFissa avatut tiedostot näkyvät tässä. Avaa PDF pudottamalla se mihin tahansa.
 	Privacy	Tietosuoja
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft toimii ilman verkkoyhteyttä. Ei telemetriaa, ei tiliä eikä pilvikäsittelyä, ellei palveluntarjoajaa lisätä.
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF toimii ilman verkkoyhteyttä. Ei telemetriaa, ei tiliä eikä pilvikäsittelyä, ellei palveluntarjoajaa lisätä.
 	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	Skriptit suoritetaan eristetyssä ympäristössä ilman tiedosto- tai verkkoyhteyttä. Kun JavaScript on pois käytöstä, Acrobatin vakiomuotoilu-, tarkistus- ja laskentafunktiot toimivat silti.
 	Back to all tools	Takaisin kaikkiin työkaluihin
 	Close panel	Sulje paneeli
@@ -898,8 +898,8 @@
 	No changes allowed	Muutoksia ei sallita
 	Annotations, form fill-in, and digital signatures	Merkinnät, lomakkeiden täyttö ja digitaaliset allekirjoitukset
 	Form fill-in and digital signatures	Lomakkeiden täyttö ja digitaaliset allekirjoitukset
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	Avain on macOS-avainnipussa, joka voi pyytää lupaa PdfCraftin käytölle.
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	Avain on Windowsin varmennesäilössä, joka voi pyytää lupaa PdfCraftin käytölle.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	Avain on macOS-avainnipussa, joka voi pyytää lupaa PureQuad PDFin käytölle.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	Avain on Windowsin varmennesäilössä, joka voi pyytää lupaa PureQuad PDFin käytölle.
 	Digital ID password	Digitaalisen tunnuksen salasana
 	Back	Takaisin
 	Validate all	Tarkista kaikki
@@ -1258,7 +1258,7 @@
 	Downsample to	Alinäytteistä tarkkuuteen
 	Also recognize pages that already have text	Tunnista myös sivut, joilla on jo tekstiä
 	Pictures on those pages are recognized too; words already in the page's text are not added again	Myös näiden sivujen kuvat tunnistetaan; sivun tekstissä jo olevia sanoja ei lisätä uudelleen
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	Tekstintunnistusta ei ole asennettu: sen mallitiedostot puuttuvat. Asenna PdfCraft uudelleen tai aseta PDFCRAFT_MODELS osoittamaan kansioon, jossa ne ovat.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	Tekstintunnistusta ei ole asennettu: sen mallitiedostot puuttuvat. Asenna PureQuad PDF uudelleen tai aseta PDFCRAFT_MODELS osoittamaan kansioon, jossa ne ovat.
 	Settings	Asetukset
 	Optional	Valinnainen
 	Planned · {m}	Suunniteltu · {m}
@@ -1402,7 +1402,7 @@
 	Anyone opening the document will need this password. It's applied when you save.	Asiakirjan avaaminen edellyttää tätä salasanaa. Se otetaan käyttöön tallennettaessa.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	Asiakirja avautuu ilman salasanaa; tätä salasanaa tarvitaan rajoitusten muuttamiseen. Se otetaan käyttöön tallennettaessa.
 	Recover unsaved documents?	Palautetaanko tallentamattomat asiakirjat?
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft ei sulkeutunut normaalisti. Näiden asiakirjojen muutokset tallennettiin automaattisesti:
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF ei sulkeutunut normaalisti. Näiden asiakirjojen muutokset tallennettiin automaattisesti:
 	just now	juuri nyt
 	{n} min ago	{n} min sitten
 	{n} h ago	{n} h sitten
@@ -1560,10 +1560,10 @@
 	On the web, open or drop an image to convert it	Verkkoversiossa avaa tai pudota muunnettava kuva
 	Couldn't optimize the file: {e}	Tiedoston optimointi epäonnistui: {e}
 	Couldn't write {path}: {e}	Kohteen {path} kirjoittaminen epäonnistui: {e}
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Lomake pyytää lähettämään tiedot osoitteeseen {u}; PdfCraft ei lähetä lomaketietoja. Tallenna asiakirja, jotta syötetyt tiedot säilyvät.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	Lomake pyytää lähettämään tiedot osoitteeseen {u}; PureQuad PDF ei lähetä lomaketietoja. Tallenna asiakirja, jotta syötetyt tiedot säilyvät.
 	This PDF uses the unsupported {s} action.	Tämä PDF käyttää toimintoa {s}, jota ei tueta.
 	{name}: the {other} action isn't supported yet	{name}: toimintoa {other} ei vielä tueta
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} lähettää lomakkeen osoitteeseen {url}; PdfCraft ei lähetä lomaketietoja. Tallenna asiakirja, jotta syötetyt tiedot säilyvät.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} lähettää lomakkeen osoitteeseen {url}; PureQuad PDF ei lähetä lomaketietoja. Tallenna asiakirja, jotta syötetyt tiedot säilyvät.
 	Export stopped: {e}	Vienti keskeytyi: {e}
 	Exported 1 image	Vietiin 1 kuva
 	Exported {n} images	Vietiin {n} kuvaa
@@ -1788,7 +1788,7 @@
 	Signed and all signatures are valid.	Allekirjoitettu, ja kaikki allekirjoitukset ovat kelvollisia.
 	At least one signature has problems.	Vähintään yhdessä allekirjoituksessa on ongelmia.
 	This document is secured. Some changes are restricted by its security settings.	Tämä asiakirja on suojattu. Sen suojausasetukset rajoittavat joitakin muutoksia.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	Tämä on dynaaminen XFA-lomake, jota PdfCraft ei vielä osaa näyttää. Näet tiedoston paikkamerkkisivun.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	Tämä on dynaaminen XFA-lomake, jota PureQuad PDF ei vielä osaa näyttää. Näet tiedoston paikkamerkkisivun.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Tämä lomake sisältää myös XFA-tietoja, joita PdfCraft ei vielä lue. Voit täyttää kentät, mutta Acrobat saattaa näyttää XFA-arvot niiden sijaan.
 	This document contains {n} interactive form fields.	Tässä asiakirjassa on {n} vuorovaikutteista lomakekenttää.
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Tämä tiedosto oli vioittunut, ja se on korjattu. Tallennus säilyttää korjatun version.
@@ -2150,7 +2150,7 @@ calendar date	September	syyskuuta
 calendar date	October	lokakuuta
 calendar date	November	marraskuuta
 calendar date	December	joulukuuta
-	Reopen the files that were open when PdfCraft last closed	Avaa uudelleen tiedostot, jotka olivat auki, kun PdfCraft viimeksi suljettiin
+	Reopen the files that were open when PureQuad PDF last closed	Avaa uudelleen tiedostot, jotka olivat auki, kun PureQuad PDF viimeksi suljettiin
 	Clear Recent Files	Tyhjennä viimeisimmät tiedostot
 	Remove from Recent	Poista viimeisimmistä
 	Remove {name} from Recent	Poista {name} viimeisimmistä
@@ -2162,8 +2162,8 @@ calendar date	December	joulukuuta
 	A link	Linkki
 	A button	Painike
 	A script	Komentosarja
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	Tämän asiakirjan {who} yritti avata osoitteen, jota PdfCraft ei avaa: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	Tämän asiakirjan {who} yritti avata osoitteen, jota PdfCraft ei avaa: {e}. Asiakirjoista avautuvat vain verkkolinkit (http, https) ja sähköpostilinkit (mailto).
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	Tämän asiakirjan {who} yritti avata osoitteen, jota PureQuad PDF ei avaa: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	Tämän asiakirjan {who} yritti avata osoitteen, jota PureQuad PDF ei avaa: {e}. Asiakirjoista avautuvat vain verkkolinkit (http, https) ja sähköpostilinkit (mailto).
 	Another file dialog is still open. Finish with it first.	Toinen tiedostoikkuna on vielä auki. Sulje se ensin.
 	Couldn't show the file picker. Please try again.	Tiedostovalitsinta ei voitu näyttää. Yritä uudelleen.
 	The document changed while you were choosing a file, so nothing was changed.	Asiakirja muuttui tiedoston valinnan aikana, joten mitään ei muutettu.
@@ -2199,8 +2199,8 @@ calendar date	December	joulukuuta
 	Slash	Vinoviiva
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	PDF-tekstifontit eivät pysty piirtämään merkkiä ”{c}” ({code}). Valitse tuettua tekstiä.
 	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	Vakiofontit eivät pysty piirtämään merkkiä ”{c}” ({code}). Toistaiseksi tekstinä voi lisätä vain länsieurooppalaisia merkkejä.
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Tämän kentän fontti ei pysty piirtämään merkkiä ”{c}” ({code}), joten PdfCraft näyttää sen tilalla merkin ?. Arvo tallennetaan, ja muut PDF-katseluohjelmat piirtävät kentän sen perusteella uudelleen.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	PdfCraftin käyttämät fontit eivät pysty piirtämään merkkiä ”{c}” ({code}), joten se näkyy merkkinä ? kaikissa PDF-katseluohjelmissa. Teksti tallennetaan.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Tämän kentän fontti ei pysty piirtämään merkkiä ”{c}” ({code}), joten PureQuad PDF näyttää sen tilalla merkin ?. Arvo tallennetaan, ja muut PDF-katseluohjelmat piirtävät kentän sen perusteella uudelleen.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	PureQuad PDFin käyttämät fontit eivät pysty piirtämään merkkiä ”{c}” ({code}), joten se näkyy merkkinä ? kaikissa PDF-katseluohjelmissa. Teksti tallennetaan.
 	Larger pages	Suuremmat sivut
 	Smaller pages	Pienemmät sivut
 	Reset page size	Palauta sivukoko
@@ -2351,7 +2351,7 @@ animation effects	Off	Ei käytössä
 	no output folder was chosen	tuloskansiota ei valittu
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	Ladattiin {n} PDF|Ladattiin {n} PDF:ää
 	Scan	Skannaa
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Allekirjoita valkoinen paperiarkki ja ota siitä valokuva kirkkaassa, tasaisessa valossa (käytä salamaa). Valitse kuva tai pudota se tähän: PdfCraft löytää allekirjoituksen ja poistaa paperin.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	Allekirjoita valkoinen paperiarkki ja ota siitä valokuva kirkkaassa, tasaisessa valossa (käytä salamaa). Valitse kuva tai pudota se tähän: PureQuad PDF löytää allekirjoituksen ja poistaa paperin.
 	Choose photo…	Valitse kuva…
 	No photo chosen	Kuvaa ei valittu
 	Photo	Kuva

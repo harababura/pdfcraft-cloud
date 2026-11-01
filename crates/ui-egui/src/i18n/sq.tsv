@@ -778,7 +778,7 @@
 	Files are combined from top to bottom. Leave Pages empty to take every page.	Skedarët bashkohen nga lart poshtë. Lëre Faqet bosh për të marrë çdo faqe.
 	Files are combined in this order. Leave Pages empty to take every page.	Skedarët bashkohen sipas këtij rendi. Lëre Faqet bosh për të marrë çdo faqe.
 	Files for {name}	Skedarët për {name}
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Skedarët që hap në PdfCraft shfaqen këtu. Hidh një PDF kudo për ta hapur.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	Skedarët që hap në PureQuad PDF shfaqen këtu. Hidh një PDF kudo për ta hapur.
 	Fill	Plotëso
 	Fill & Sign	Plotëso dhe nënshkruaj
 	Fill & Sign: add text	Plotëso dhe nënshkruaj: shto tekst
@@ -1310,10 +1310,10 @@
 	Paths	Rrugët
 	Patterns	Modelet
 	Patterns (graphics objects)	Modelet (objekte grafike)
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft nuk u mbyll normalisht. Këta dokumente kishin ndryshime të ruajtura automatikisht:
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF nuk u mbyll normalisht. Këta dokumente kishin ndryshime të ruajtura automatikisht:
 	PdfCraft on GitHub	PdfCraft në GitHub
 	PdfCraft web page	Faqja ueb e PdfCraft
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft funksionon pa internet. Pa telemetri, pa llogari dhe pa përpunim në re, përveçse nëse shton një ofrues.
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF funksionon pa internet. Pa telemetri, pa llogari dhe pa përpunim në re, përveçse nëse shton një ofrues.
 	PdfCraft {v} is available.	PdfCraft {v} është i disponueshëm.
 	People may need more time to respond. Check that nothing has a time limit.	Njerëzit mund të kenë nevojë për më shumë kohë për të përgjigjur. Kontrollo që asgjë të mos ketë kufi kohe.
 	Percentage	Përqindja
@@ -1461,7 +1461,7 @@
 	Rename	Riemërto
 	Rename bookmark	Riemërto libërshënuesin
 	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	Duke vizatuar: hayro (fillestar) · UI: egui · Ikonat: Lucide (ISC) · Shkronjat: Inter, JetBrains Mono, Dancing Script (OFL)
-	Reopen the files that were open when PdfCraft last closed	Rihap skedarët që ishin hapur kur u mbyll PdfCraft për herë të fundit
+	Reopen the files that were open when PureQuad PDF last closed	Rihap skedarët që ishin hapur kur u mbyll PureQuad PDF për herë të fundit
 	Repair log	Regjistri i riparimeve
 	Repairs	Riparimet
 	Repeat overlay text	Përsërit tekstin e mbivendosjes
@@ -1812,10 +1812,10 @@
 	The document was closed before it could be saved.	Dokumenti u mbyll para se të ruhej.
 	The document's security settings don't allow filling in form fields	Cilësimet e sigurisë së dokumentit nuk lejojnë plotësimin e fushave të formularit
 	The document's security settings don't allow this change	Cilësimet e sigurisë së dokumentit nuk e lejojnë këtë ndryshim
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Formulari kërkon të dërgohet te {u}; PdfCraft nuk dërgon të dhëna formulari. Ruajeni dokumentin për të mbajtur të dhënat tuaja.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	Formulari kërkon të dërgohet te {u}; PureQuad PDF nuk dërgon të dhëna formulari. Ruajeni dokumentin për të mbajtur të dhënat tuaja.
 	The form asks viewers to make appearances (NeedAppearances)	Formulari u kërkon shikuesve të krijojnë pamjet (NeedAppearances)
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	Çelësi është në depon e certifikatave të Windows, e cila mund të kërkojë të lejohet PdfCraft ta përdorë.
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	Çelësi është në Keychain të macOS, i cili mund të kërkojë të lejohet PdfCraft ta përdorë.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	Çelësi është në depon e certifikatave të Windows, e cila mund të kërkojë të lejohet PureQuad PDF ta përdorë.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	Çelësi është në Keychain të macOS, i cili mund të kërkojë të lejohet PureQuad PDF ta përdorë.
 	The newest {n} of {total} PDFs	{n} PDF-të më të reja nga {total}
 	The operation failed.	Veprimi dështoi.
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	Faqet u nxorën por nuk u fshinë, sepse dokumenti ndryshoi ndërsa zgjidhnit një dosje.
@@ -1864,7 +1864,7 @@
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Ky skedar ishte i dëmtuar dhe u riparua. Ruajtja mban versionin e riparuar.
 	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	Kjo dosje nuk është e disponueshme tani. Mund të jetë zhvendosur, ose disku apo sinkronizimi i saj në re është jashtë linje.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Ky formular përmban edhe të dhëna XFA, të cilat PdfCraft ende nuk i lexon. Mund t'i plotësoni fushat e tij, por Acrobat mund të shfaqë në vend të tyre vlerat XFA.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	Ky është një formular dinamik XFA, të cilin PdfCraft ende nuk mund ta shfaqë. Ajo që shihni është faqja zëvendësuese e skedarit.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	Ky është një formular dinamik XFA, të cilin PureQuad PDF ende nuk mund ta shfaqë. Ajo që shihni është faqja zëvendësuese e skedarit.
 	This measurement needs at least {n} points.	Kjo matje kërkon të paktën {n} pika.
 	This page couldn't be displayed.\n{e}	Kjo faqe nuk u shfaq dot.\n{e}
 	This web address mixes letters from different alphabets, a common way to imitate another site's name.	Kjo adresë web përzien shkronja nga alfabete të ndryshme, një mënyrë e zakonshme për të imituar emrin e një faqeje tjetër.
@@ -1980,7 +1980,7 @@
 	Warnings	Paralajmërimet
 	Watermark	Filigran
 	Weak	E dobët
-	Welcome to PdfCraft	Mirë se vini në PdfCraft
+	Welcome to PureQuad PDF	Mirë se vini në PureQuad PDF
 	What word or phrase would you like to search for?	Çfarë fjale ose fraze do të kërkoni?
 	Whole words only	Vetëm fjalë të plota
 	Width	Gjerësia
@@ -2081,7 +2081,7 @@
 	{name} can't be combined: {why}	{name} nuk mund të kombinohet: {why}
 	{name} has no action	{name} nuk ka veprim
 	{name} is read-only	{name} është vetëm për lexim
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} dërgon formularin te {url}; PdfCraft nuk dërgon të dhëna formulari. Ruajeni dokumentin për të mbajtur të dhënat tuaja.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} dërgon formularin te {url}; PureQuad PDF nuk dërgon të dhëna formulari. Ruajeni dokumentin për të mbajtur të dhënat tuaja.
 	{name} — unsaved changes	{name} — ndryshime të paruajtura
 	{name}: choosing images arrives on the web with file pickers for images	{name}: zgjedhja e imazheve vjen në ueb me zgjedhës skedarësh për imazhe
 	{name}: the {other} action isn't supported yet	{name}: veprimi {other} nuk mbështetet ende
@@ -2110,8 +2110,8 @@
 	{verb} Header and Footer	{verb} kokën dhe këmbën
 	{verb} Watermark	{verb} filigranin
 	{verb} as "{name}"	{verb} si "{name}"
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} në këtë dokument u përpoq të hapte një adresë që PdfCraft nuk e hap: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} në këtë dokument u përpoq të hapte një adresë që PdfCraft nuk e hap: {e}. Nga dokumentet hapen vetëm lidhjet e uebit (http, https) dhe të emailit (mailto).
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	{who} në këtë dokument u përpoq të hapte një adresë që PureQuad PDF nuk e hap: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} në këtë dokument u përpoq të hapte një adresë që PureQuad PDF nuk e hap: {e}. Nga dokumentet hapen vetëm lidhjet e uebit (http, https) dhe të emailit (mailto).
 	{who} in this document wants to open this address in your browser:	{who} në këtë dokument dëshiron ta hapë këtë adresë në shfletuesin tuaj:
 	{who} in this document wants to open your email app with this address:	{who} në këtë dokument dëshiron të hapë aplikacionin tuaj të emailit me këtë adresë:
 	{words} on {pages}	{words} në {pages}
@@ -2171,7 +2171,7 @@ signature pad	Type	Shkruaj
 	Shift- or Ctrl/Command-click to select several fields.	Shift- ose Ctrl/Command-klikoni për të zgjedhur disa fusha.
 	Slash	Vijë e pjerrët
 	Smaller pages	Faqe më të vogla
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	Njohja e tekstit nuk është e instaluar: mungojnë skedarët e modelit. Instaloni përsëri PdfCraft, ose vendosni PDFCRAFT_MODELS te dosja që i përmban.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	Njohja e tekstit nuk është e instaluar: mungojnë skedarët e modelit. Instaloni përsëri PureQuad PDF, ose vendosni PDFCRAFT_MODELS te dosja që i përmban.
 	Text, marks and signatures become part of the page. Other comments stay editable.	Teksti, shenjat dhe nënshkrimet bëhen pjesë e faqes. Komentet e tjera mbeten të redaktueshme.
 	The document changed while you were editing field properties.	Dokumenti ndryshoi ndërsa po redaktonit vetitë e fushës.
 	The document is no longer open.	Dokumenti nuk është më i hapur.
@@ -2315,8 +2315,8 @@ animation effects	Off	Joaktiv
 	Change the colour of line art as well as text	Ndrysho ngjyrën e vijave si dhe të tekstit
 	Colours are remapped while rendering; the document itself never changes.	Ngjyrat ripërcaktohen gjatë vizatimit; vetë dokumenti nuk ndryshon kurrë.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	Drajveri i këtij printeri nuk i merr cilësimet dyanshe nga programet e tjera, ndaj zbatohet cilësimi i tij. Ndryshojeni te Vetitë…
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Fonti i kësaj fushe nuk mund të vizatojë “{c}” ({code}), ndaj PdfCraft shfaq ? në vend të tij. Vlera ruhet dhe shfaqësit e tjerë PDF e vizatojnë fushën nga ajo.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Fontet me të cilat shkruan PdfCraft nuk mund të vizatojnë “{c}” ({code}), ndaj shfaqet si ? në çdo shfaqës PDF. Teksti ruhet.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Fonti i kësaj fushe nuk mund të vizatojë “{c}” ({code}), ndaj PureQuad PDF shfaq ? në vend të tij. Vlera ruhet dhe shfaqësit e tjerë PDF e vizatojnë fushën nga ajo.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Fontet me të cilat shkruan PureQuad PDF nuk mund të vizatojnë “{c}” ({code}), ndaj shfaqet si ? në çdo shfaqës PDF. Teksti ruhet.
 	Browser's print dialog	Dialogu i printimit të shfletuesit
 	Copies, two-sided printing and colour are chosen in the browser's print dialog.	Kopjet, printimi dyanësh dhe ngjyra zgjidhen në dialogun e printimit të shfletuesit.
 	Preparing {n} sheets for printing…	Po përgatiten {n} fletë për printim…
@@ -2345,7 +2345,7 @@ animation effects	Off	Joaktiv
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	U shkarkua {n} PDF|U shkarkuan {n} PDF
 @plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	{n} emër fushe përplaset me skedarët e mëparshëm dhe do të riemërtohet: {list}|{n} emra fushash përplasen me skedarët e mëparshëm dhe do të riemërtohen: {list}
 	Scan	Skano
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Nënshkruani një fletë letre të bardhë dhe bëni një foto në dritë të fortë e të njëtrajtshme (përdorni blicin). Zgjidhni foton ose hidheni këtu: PdfCraft gjen nënshkrimin dhe heq letrën.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	Nënshkruani një fletë letre të bardhë dhe bëni një foto në dritë të fortë e të njëtrajtshme (përdorni blicin). Zgjidhni foton ose hidheni këtu: PureQuad PDF gjen nënshkrimin dhe heq letrën.
 	Choose photo…	Zgjidh foton…
 	No photo chosen	Nuk u zgjodh foto
 	Photo	Foto

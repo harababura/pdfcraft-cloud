@@ -171,7 +171,7 @@
 	Previous page	صفحه قبلی
 	Current page — type a page number or label (such as iv) and press Enter	صفحه فعلی — یک شماره یا برچسب صفحه (مانند iv) وارد کنید و Enter را فشار دهید
 	Zoom — type a percentage and press Enter	بزرگنمایی — یک درصد وارد کنید و Enter را فشار دهید
-	Welcome to PdfCraft	به PdfCraft خوش آمدید
+	Welcome to PureQuad PDF	به PureQuad PDF خوش آمدید
 	An open-source PDF workbench — local, private, and scriptable.	یک میزکار PDF متن باز — محلی، خصوصی و قابل اسکریپت‌نویسی.
 	Join the ArtCraft community	به جامعه ArtCraft بپیوندید
 	Get help, share feedback and follow development on Discord.	کمک بگیرید، بازخورد بدهید و توسعه را در دیسکورد دنبال کنید.
@@ -179,9 +179,9 @@
 	Use now	همین حالا استفاده کنید
 	Open file	باز کردن فایل
 	Recent	اخیر
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	فایل‌هایی که در PdfCraft باز می‌کنید اینجا نمایش داده می‌شوند. برای باز کردن، یک PDF را هرجایی رها کنید.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	فایل‌هایی که در PureQuad PDF باز می‌کنید اینجا نمایش داده می‌شوند. برای باز کردن، یک PDF را هرجایی رها کنید.
 	Privacy	حریم خصوصی
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft آفلاین کار می‌کند. بدون تله سنجی، بدون حساب کاربری و بدون پردازش ابری، مگر اینکه ارائه دهند‌ه ای اضافه کنید.
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF آفلاین کار می‌کند. بدون تله سنجی، بدون حساب کاربری و بدون پردازش ابری، مگر اینکه ارائه دهند‌ه ای اضافه کنید.
 	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	اسکریپت‌ها در یک محیط ایزوله بدون دسترسی به فایل یا شبکه اجرا می‌شوند. با خاموش بودن JavaScript، توابع استاندارد قالب‌بندی، اعتبارسنجی و محاسبه Acrobat همچنان کار می‌کنند.
 	Back to all tools	بازگشت به همه ابزار‌ها
 	Close panel	بستن پنل
@@ -938,8 +938,8 @@
 	No changes allowed	هیچ تغییری مجاز نیست
 	Annotations, form fill-in, and digital signatures	حاشیه‌نویسی‌ها، پُرکردن فرم و امضا‌های دیجیتال
 	Form fill-in and digital signatures	پُرکردن فرم و امضا‌های دیجیتال
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	کلید در Keychain macOS است، که ممکن است برای اجازه دادن به PdfCraft برای استفاده از آن درخواست کند.
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	کلید در مخزن گواهی Windows است، که ممکن است برای اجازه دادن به PdfCraft برای استفاده از آن درخواست کند.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	کلید در Keychain macOS است، که ممکن است برای اجازه دادن به PureQuad PDF برای استفاده از آن درخواست کند.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	کلید در مخزن گواهی Windows است، که ممکن است برای اجازه دادن به PureQuad PDF برای استفاده از آن درخواست کند.
 	Digital ID password	گذرواژه شناسه دیجیتال
 	Back	بازگشت
 	Validate all	اعتبارسنجی همه
@@ -1302,7 +1302,7 @@
 	Downsample to	کاهش نمونهبرداری به
 	Also recognize pages that already have text	همچنین صفحه‌هایی که از قبل متن دارند را تشخیص بده
 	Pictures on those pages are recognized too; words already in the page's text are not added again	تصویر‌های آن صفحه‌ها نیز تشخیص داده می‌شوند؛ واژه‌هایی که از قبل در متن صفحه هستند دوباره افزوده نمی‌شوند
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	تشخیص متن نصب نیست: فایل‌های مدل آن وجود ندارند. PdfCraft را دوباره نصب کنید، یا PDFCRAFT_MODELS را به پوشه ای که آن‌ها را دارد تنظیم کنید.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	تشخیص متن نصب نیست: فایل‌های مدل آن وجود ندارند. PureQuad PDF را دوباره نصب کنید، یا PDFCRAFT_MODELS را به پوشه ای که آن‌ها را دارد تنظیم کنید.
 	Settings	تنظیمات
 	Optional	اختیاری
 	Planned · {m}	برنامه‌ریزی‌شده · {m}
@@ -1449,7 +1449,7 @@
 	Anyone opening the document will need this password. It's applied when you save.	هر کسی که سند را باز کند به این گذرواژه نیاز دارد. هنگام ذخیره اعمال می‌شود.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	سند بدون گذرواژه باز می‌شود؛ این گذرواژه برای تغییر محدودیت‌ها لازم است. هنگام ذخیره اعمال می‌شود.
 	Recover unsaved documents?	باز‌یابی سند‌های ذخیره‌نشده؟
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft به درستی بسته نشد. این سند‌ها تغییراتی داشتند که ذخیره خودکار شدهاند:
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF به درستی بسته نشد. این سند‌ها تغییراتی داشتند که ذخیره خودکار شدهاند:
 	just now	همین حالا
 	{n} min ago	{n} دقیقه پیش
 	{n} h ago	{n} ساعت پیش
@@ -1610,10 +1610,10 @@
 	On the web, open or drop an image to convert it	در نسخه وب، تصویری را باز کنید یا رها کنید تا تبدیل شود
 	Couldn't optimize the file: {e}	بهینه‌سازی فایل ممکن نشد: {e}
 	Couldn't write {path}: {e}	نوشتن {path} ممکن نشد: {e}
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	فرم درخواست ارسال به {u} را دارد؛ PdfCraft داده‌های فرم را ارسال نمی‌کند. سند را ذخیره کنید تا ورودی‌هایتان حفظ شوند.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	فرم درخواست ارسال به {u} را دارد؛ PureQuad PDF داده‌های فرم را ارسال نمی‌کند. سند را ذخیره کنید تا ورودی‌هایتان حفظ شوند.
 	This PDF uses the unsupported {s} action.	این PDF از کنش {s} پشتیبانی‌نشده استفاده می‌کند.
 	{name}: the {other} action isn't supported yet	{name}: کنش {other} هنوز پشتیبانی نمی‌شود
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} فرم را به {url} ارسال می‌کند؛ PdfCraft داده‌های فرم را ارسال نمی‌کند. سند را ذخیره کنید تا ورودی‌هایتان حفظ شوند.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} فرم را به {url} ارسال می‌کند؛ PureQuad PDF داده‌های فرم را ارسال نمی‌کند. سند را ذخیره کنید تا ورودی‌هایتان حفظ شوند.
 	Export stopped: {e}	برونبری متوقف شد: {e}
 	Exported 1 image	۱ تصویر برونبری شد
 	Exported {n} images	{n} تصویر برونبری شد
@@ -1861,7 +1861,7 @@ action wizard	Start	شروع
 	Signed and all signatures are valid.	امضا شده و همه امضا‌ها معتبرند.
 	At least one signature has problems.	حداقل یک امضا مشکل دارد.
 	This document is secured. Some changes are restricted by its security settings.	این سند محافظت شده است. برخی تغییر‌ها توسط تنظیمات امنیتی آن محدود شدهاند.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	این یک فرم XFA پویاست که PdfCraft هنوز نمی‌تواند نمایش دهد. آنچه می‌بینید صفحه جانگهدار فایل است.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	این یک فرم XFA پویاست که PureQuad PDF هنوز نمی‌تواند نمایش دهد. آنچه می‌بینید صفحه جانگهدار فایل است.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	این فرم همچنین داده XFA دارد که PdfCraft هنوز نمی‌خواند. می‌توانید فیلد‌هایش را پر کنید، اما Acrobat ممکن است به‌جای آن مقادیر XFA را نشان دهد.
 	This document contains {n} interactive form fields.	این سند {n} فیلد فرم تعاملی دارد.
 	This file was damaged and has been repaired. Saving keeps the repaired version.	این فایل آسیب دیده بود و ترمیم شده است. ذخیره کردن نسخه ترمیم‌شده را حفظ می‌کند.
@@ -2178,7 +2178,7 @@ action wizard	Start	شروع
 	% of all commits	٪ از همهٔ کامیت‌ها
 	Lines +/−	خطوط +/−
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PR، {commits} کامیت، +{added} / −{deleted} خط (Δ {delta})، +{bin_added} / −{bin_deleted} دارایی دودویی، {first} – {last}
-	Reopen the files that were open when PdfCraft last closed	باز‌گشایی فایل‌هایی که هنگام آخرین بسته شدن PdfCraft باز بودند
+	Reopen the files that were open when PureQuad PDF last closed	باز‌گشایی فایل‌هایی که هنگام آخرین بسته شدن PureQuad PDF باز بودند
 	Restore the last view (page, zoom and page display) when a document is opened again	باز‌یابی آخرین نما (صفحه، بزرگنمایی و نمایش صفحه) هنگام باز شدن دوبارهٔ سند
 	Add {what}	افزودن {what}
 	Use {what}	استفاده از {what}
@@ -2187,8 +2187,8 @@ action wizard	Start	شروع
 	A link	یک پیوند
 	A button	یک دکمه
 	A script	یک اسکریپت
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} در این سند تلاش کرد نشانیای را باز کند که PdfCraft باز نمی‌کند: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} در این سند تلاش کرد نشانیای را باز کند که PdfCraft باز نمی‌کند: {e}. از میان سند‌ها فقط پیوند‌های وب (http، https) و ایمیل (mailto) باز می‌شوند.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	{who} در این سند تلاش کرد نشانیای را باز کند که PureQuad PDF باز نمی‌کند: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} در این سند تلاش کرد نشانیای را باز کند که PureQuad PDF باز نمی‌کند: {e}. از میان سند‌ها فقط پیوند‌های وب (http، https) و ایمیل (mailto) باز می‌شوند.
 	Another file dialog is still open. Finish with it first.	یک پنجرهٔ گفتوگوی فایل دیگر هنوز باز است. ابتدا آن را تمام کنید.
 	Couldn't show the file picker. Please try again.	انتخابگر فایل نمایش داده نشد. لطفاً دوباره تلاش کنید.
 	The document changed while you were choosing a file, so nothing was changed.	سند در حین انتخاب فایل تغییر کرد، بنابراین چیزی تغییر نکرد.
@@ -2240,8 +2240,8 @@ action wizard	Start	شروع
 	For page sizes and margins.	برای اندازه‌های صفحه و حاشیه‌ها.
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	قلم‌های متن PDF نمی‌توانند «{c}» را بکشند ({code}). متن پشتیبانی‌شده انتخاب کنید.
 	The standard fonts can't draw “{c}” ({code}). Only Western European characters can be added as text for now.	قلم‌های استاندارد نمی‌توانند «{c}» را بکشند ({code}). فعلاً فقط نویسه‌های اروپای غربی می‌توانند به‌عنوان متن افزوده شوند.
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	قلم این فیلد نمی‌تواند «{c}» را بکشد ({code})، بنابراین PdfCraft به‌جای آن ? نشان می‌دهد. مقدار ذخیره می‌شود و سایر نمایشگر‌های PDF فیلد را از آن باز‌ترسیم می‌کنند.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	قلم‌هایی که PdfCraft با آن‌ها می‌نویسد نمی‌توانند «{c}» را بکشند ({code})، بنابراین در همهٔ نمایشگر‌های PDF به‌صورت ? نمایش داده می‌شود. متن ذخیره می‌شود.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	قلم این فیلد نمی‌تواند «{c}» را بکشد ({code})، بنابراین PureQuad PDF به‌جای آن ? نشان می‌دهد. مقدار ذخیره می‌شود و سایر نمایشگر‌های PDF فیلد را از آن باز‌ترسیم می‌کنند.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	قلم‌هایی که PureQuad PDF با آن‌ها می‌نویسد نمی‌توانند «{c}» را بکشند ({code})، بنابراین در همهٔ نمایشگر‌های PDF به‌صورت ? نمایش داده می‌شود. متن ذخیره می‌شود.
 	Open arrow	پیکان باز
 	Closed arrow	پیکان بسته
 	Butt	انت‌های صاف
@@ -2524,7 +2524,7 @@ animation effects	Off	خاموش
 @plural	{fields} builds some field names as it runs, so those reads aren't checked.|{fields} build some field names as they run, so those reads aren't checked.	{fields} برخی نام‌های فیلد را هنگام اجرا می‌سازد، پس این خواندن‌ها بررسی نمی‌شوند.|{fields} برخی نام‌های فیلد را هنگام اجرا می‌سازند، پس این خواندن‌ها بررسی نمی‌شوند.
 @plural	{fields} is missing|{fields} are missing	{fields} وجود ندارد|{fields} وجود ندارند
 	Scan	اسکن
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	روی یک برگ کاغذ سفید امضا کنید و از آن در نور روشن و یکنواخت عکس بگیرید (از فلاش استفاده کنید). عکس را انتخاب کنید یا آن را اینجا رها کنید: PdfCraft امضا را پیدا می‌کند و کاغذ را حذف می‌کند.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	روی یک برگ کاغذ سفید امضا کنید و از آن در نور روشن و یکنواخت عکس بگیرید (از فلاش استفاده کنید). عکس را انتخاب کنید یا آن را اینجا رها کنید: PureQuad PDF امضا را پیدا می‌کند و کاغذ را حذف می‌کند.
 	Choose photo…	انتخاب عکس…
 	No photo chosen	هیچ عکسی انتخاب نشده
 	Photo	عکس

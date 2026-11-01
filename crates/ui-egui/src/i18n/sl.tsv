@@ -787,7 +787,7 @@
 	Files are combined from top to bottom. Leave Pages empty to take every page.	Datoteke se združijo od zgoraj navzdol. Če pustite Strani prazno, se vzamejo vse strani.
 	Files are combined in this order. Leave Pages empty to take every page.	Datoteke se združijo v tem vrstnem redu. Če pustite Strani prazno, se vzamejo vse strani.
 	Files for {name}	Datoteke za {name}
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Datoteke, ki jih odprete v PdfCraftu, se prikažejo tukaj. Spustite PDF kamor koli, da ga odprete.
+	Files you open in PureQuad PDF appear here. Drop a PDF anywhere to open it.	Datoteke, ki jih odprete v PureQuad PDFu, se prikažejo tukaj. Spustite PDF kamor koli, da ga odprete.
 	Fill	Izpolni
 	Fill & Sign	Izpolni in podpiši
 	Fill & Sign: add text	Izpolni in podpiši: dodaj besedilo
@@ -1361,10 +1361,10 @@
 	Paths	Poti
 	Patterns	Vzorci
 	Patterns (graphics objects)	Vzorci (grafični objekti)
-	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft se ni zaprl običajno. Ti dokumenti so imeli samodejno shranjene spremembe:
+	PureQuad PDF didn't shut down normally. These documents had changes that were autosaved:	PureQuad PDF se ni zaprl običajno. Ti dokumenti so imeli samodejno shranjene spremembe:
 	PdfCraft on GitHub	PdfCraft na GitHubu
 	PdfCraft web page	Spletna stran PdfCraft
-	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft deluje brez povezave. Brez telemetrije, brez računa in brez obdelave v oblaku, razen če dodate ponudnika.
+	PureQuad PDF works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PureQuad PDF deluje brez povezave. Brez telemetrije, brez računa in brez obdelave v oblaku, razen če dodate ponudnika.
 	PdfCraft {v} is available.	Na voljo je PdfCraft {v}.
 	People may need more time to respond. Check that nothing has a time limit.	Ljudje bodo morda potrebovali več časa za odziv. Preverite, da nič nima časovne omejitve.
 	Percentage	Odstotek
@@ -1514,7 +1514,7 @@
 	Rename	Preimenuj
 	Rename bookmark	Preimenuj zaznamek
 	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	Izris: hayro (bootstrap) · Vmesnik: egui · Ikone: Lucide (ISC) · Pisave: Inter, JetBrains Mono, Dancing Script (OFL)
-	Reopen the files that were open when PdfCraft last closed	Ponovno odpri datoteke, ki so bile odprte ob zadnjem zaprtju PdfCrafta
+	Reopen the files that were open when PureQuad PDF last closed	Ponovno odpri datoteke, ki so bile odprte ob zadnjem zaprtju PureQuad PDFa
 	Restore the last view (page, zoom and page display) when a document is opened again	Ob ponovnem odprtju dokumenta obnovi zadnji pogled (stran, povečavo in prikaz strani)
 	Repair log	Dnevnik popravil
 	Repairs	Popravila
@@ -1873,10 +1873,10 @@
 	The document was closed before it could be saved.	Dokument je bil zaprt, preden ga je bilo mogoče shraniti.
 	The document's security settings don't allow filling in form fields	Varnostne nastavitve dokumenta ne dovoljujejo izpolnjevanja polj obrazca
 	The document's security settings don't allow this change	Varnostne nastavitve dokumenta ne dovoljujejo te spremembe
-	The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document to keep your entries.	Obrazec želi biti oddan na {u}; PdfCraft ne pošilja podatkov obrazcev. Shranite dokument, da obdržite svoje vnose.
+	The form asks to be submitted to {u}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	Obrazec želi biti oddan na {u}; PureQuad PDF ne pošilja podatkov obrazcev. Shranite dokument, da obdržite svoje vnose.
 	The form asks viewers to make appearances (NeedAppearances)	Obrazec zahteva, da gledalci ustvarijo videze (NeedAppearances)
-	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	Ključ je v shrambi potrdil Windows, ki lahko zahteva dovoljenje, da ga PdfCraft uporabi.
-	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	Ključ je v macOS Keychain, ki lahko zahteva dovoljenje, da ga PdfCraft uporabi.
+	The key is in the Windows certificate store, which may ask to allow PureQuad PDF to use it.	Ključ je v shrambi potrdil Windows, ki lahko zahteva dovoljenje, da ga PureQuad PDF uporabi.
+	The key is in the macOS Keychain, which may ask to allow PureQuad PDF to use it.	Ključ je v macOS Keychain, ki lahko zahteva dovoljenje, da ga PureQuad PDF uporabi.
 	The newest {n} of {total} PDFs	Najnovejših {n} od {total} datotek PDF
 	The operation failed.	Operacija ni uspela.
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	Strani so bile izvlečene, a ne izbrisane, ker se je dokument spremenil, medtem ko ste izbirali mapo.
@@ -1925,7 +1925,7 @@
 	This file was damaged and has been repaired. Saving keeps the repaired version.	Ta datoteka je bila poškodovana in je bila popravljena. Shranjevanje obdrži popravljeno različico.
 	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	Ta mapa trenutno ni na voljo. Morda je bila premaknjena ali pa je njen pogon ali sinhronizacija v oblaku brez povezave.
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	Ta obrazec vsebuje tudi podatke XFA, ki jih PdfCraft še ne bere. Polja lahko izpolnite, vendar Acrobat morda prikaže vrednosti XFA.
-	This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's placeholder page.	To je dinamični obrazec XFA, ki ga PdfCraft še ne more prikazati. Tisto, kar vidite, je nadomestna stran datoteke.
+	This is a dynamic XFA form, which PureQuad PDF can't display yet. What you see is the file's placeholder page.	To je dinamični obrazec XFA, ki ga PureQuad PDF še ne more prikazati. Tisto, kar vidite, je nadomestna stran datoteke.
 	This measurement needs at least {n} points.	Ta meritev potrebuje vsaj točk: {n}.
 	This page couldn't be displayed.\n{e}	Te strani ni bilo mogoče prikazati.\n{e}
 	This web address mixes letters from different alphabets, a common way to imitate another site's name.	Ta spletni naslov meša črke iz različnih abeced, kar je pogost način posnemanja imena druge strani.
@@ -2041,7 +2041,7 @@
 	Warnings	Opozorila
 	Watermark	Vodni žig
 	Weak	Šibko
-	Welcome to PdfCraft	Dobrodošli v PdfCraftu
+	Welcome to PureQuad PDF	Dobrodošli v PureQuad PDFu
 	What word or phrase would you like to search for?	Katero besedo ali besedno zvezo želite poiskati?
 	Whole words only	Samo cele besede
 	Width	Širina
@@ -2142,7 +2142,7 @@
 	{name} can't be combined: {why}	Datoteke {name} ni mogoče združiti: {why}
 	{name} has no action	{name} nima dejanja
 	{name} is read-only	{name} je samo za branje
-	{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to keep your entries.	{name} odda obrazec na {url}; PdfCraft ne pošilja podatkov obrazcev. Shranite dokument, da obdržite svoje vnose.
+	{name} submits the form to {url}; PureQuad PDF doesn't send form data. Save the document to keep your entries.	{name} odda obrazec na {url}; PureQuad PDF ne pošilja podatkov obrazcev. Shranite dokument, da obdržite svoje vnose.
 	{name} — unsaved changes	{name} — neshranjene spremembe
 	{name}: choosing images arrives on the web with file pickers for images	{name}: izbiranje slik bo v spletni različici na voljo z izbirniki slikovnih datotek
 	{name}: the {other} action isn't supported yet	{name}: dejanje {other} še ni podprto
@@ -2171,8 +2171,8 @@
 	{verb} Header and Footer	Glava in noga: {verb}
 	{verb} Watermark	Vodni žig: {verb}
 	{verb} as "{name}"	{verb} kot „{name}“
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} v tem dokumentu je poskusil odpreti naslov, ki ga PdfCraft ne odpre: {e}.
-	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} v tem dokumentu je poskusil odpreti naslov, ki ga PdfCraft ne odpre: {e}. Iz dokumentov se odpirajo samo spletne (http, https) in e-poštne (mailto) povezave.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}.	{who} v tem dokumentu je poskusil odpreti naslov, ki ga PureQuad PDF ne odpre: {e}.
+	{who} in this document tried to open an address PureQuad PDF won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} v tem dokumentu je poskusil odpreti naslov, ki ga PureQuad PDF ne odpre: {e}. Iz dokumentov se odpirajo samo spletne (http, https) in e-poštne (mailto) povezave.
 	{who} in this document wants to open this address in your browser:	{who} v tem dokumentu želi ta naslov odpreti v vašem brskalniku:
 	{who} in this document wants to open your email app with this address:	{who} v tem dokumentu želi odpreti vaš e-poštni program s tem naslovom:
 	{words} on {pages}	{words} na {pages}
@@ -2232,7 +2232,7 @@ signature pad	Type	Vtipkaj
 	Shift- or Ctrl/Command-click to select several fields.	S Shift ali Ctrl/Command in klikom izberete več polj.
 	Slash	Poševnica
 	Smaller pages	Manjše strani
-	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	Prepoznavanje besedila ni nameščeno: manjkajo datoteke njegovih modelov. Ponovno namestite PdfCraft ali nastavite PDFCRAFT_MODELS na mapo, v kateri so.
+	Text recognition isn't installed: its model files are missing. Reinstall PureQuad PDF, or set PDFCRAFT_MODELS to the folder that holds them.	Prepoznavanje besedila ni nameščeno: manjkajo datoteke njegovih modelov. Ponovno namestite PureQuad PDF ali nastavite PDFCRAFT_MODELS na mapo, v kateri so.
 	Text, marks and signatures become part of the page. Other comments stay editable.	Besedilo, oznake in podpisi postanejo del strani. Drugi komentarji ostanejo urejljivi.
 	The document changed while you were editing field properties.	Dokument se je spremenil med urejanjem lastnosti polja.
 	The document is no longer open.	Dokument ni več odprt.
@@ -2385,8 +2385,8 @@ animation effects	Off	Izklopljeni
 	Change the colour of line art as well as text	Spremeni barvo tudi črt, ne samo besedila
 	Colours are remapped while rendering; the document itself never changes.	Barve se spremenijo pri izrisovanju; sam dokument se nikoli ne spremeni.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	Gonilnik tega tiskalnika ne sprejema nastavitev obojestranskega tiskanja iz drugih programov, zato velja njegova lastna nastavitev. Spremenite jo v Lastnosti…
-	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Pisava tega polja ne more prikazati »{c}« ({code}), zato PdfCraft namesto njega prikaže ?. Vrednost se shrani, drugi pregledovalniki PDF pa polje znova narišejo iz nje.
-	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Pisave, s katerimi piše PdfCraft, ne morejo prikazati »{c}« ({code}), zato se v vseh pregledovalnikih PDF prikaže kot ?. Besedilo se shrani.
+	This field's font can't draw “{c}” ({code}), so PureQuad PDF shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	Pisava tega polja ne more prikazati »{c}« ({code}), zato PureQuad PDF namesto njega prikaže ?. Vrednost se shrani, drugi pregledovalniki PDF pa polje znova narišejo iz nje.
+	The fonts PureQuad PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	Pisave, s katerimi piše PureQuad PDF, ne morejo prikazati »{c}« ({code}), zato se v vseh pregledovalnikih PDF prikaže kot ?. Besedilo se shrani.
 	Browser's print dialog	Pogovorno okno za tiskanje v brskalniku
 	Copies, two-sided printing and colour are chosen in the browser's print dialog.	Število kopij, obojestransko tiskanje in barvo izberete v pogovornem oknu za tiskanje v brskalniku.
 	Preparing {n} sheets for printing…	Priprava listov za tiskanje: {n}…
@@ -2428,7 +2428,7 @@ animation effects	Off	Izklopljeni
 @plural	{fields} is missing|{fields} are missing	{fields} manjka|{fields} manjkata|{fields} manjkajo|{fields} manjka
 @plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	{n} ime polja se ujema z imeni iz prejšnjih datotek in bo preimenovano: {list}|{n} imeni polj se ujemata z imeni iz prejšnjih datotek in bosta preimenovani: {list}|{n} imena polj se ujemajo z imeni iz prejšnjih datotek in bodo preimenovana: {list}|{n} imen polj se ujema z imeni iz prejšnjih datotek in bo preimenovanih: {list}
 	Scan	Skeniraj
-	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Podpišite se na list belega papirja in ga fotografirajte v močni, enakomerni svetlobi (uporabite bliskavico). Izberite fotografijo ali jo spustite sem: PdfCraft poišče podpis in odstrani papir.
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PureQuad PDF finds the signature and removes the paper.	Podpišite se na list belega papirja in ga fotografirajte v močni, enakomerni svetlobi (uporabite bliskavico). Izberite fotografijo ali jo spustite sem: PureQuad PDF poišče podpis in odstrani papir.
 	Choose photo…	Izberi fotografijo…
 	No photo chosen	Fotografija ni izbrana
 	Photo	Fotografija

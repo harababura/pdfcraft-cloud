@@ -190,7 +190,14 @@ impl PdfCraftApp {
                 self.save_active(SaveTarget::As);
             }
             // Fork patch: the PureQuad Cloud window is drawn by the app (`cloud_links.rs`).
+            #[cfg(not(target_arch = "wasm32"))]
             "file.cloud_open" => purequad_cloud::requests::request(purequad_cloud::requests::Request::Browse),
+            // In the browser the PDF already lives in the cloud page around the app.
+            #[cfg(target_arch = "wasm32")]
+            "file.cloud_open" => self.open_url(pdfcraft_engine::links::DISCORD),
+            #[cfg(target_arch = "wasm32")]
+            "file.cloud_save" => self.notify_tr("Save to PureQuad Cloud is in the PureQuad PDF desktop app"),
+            #[cfg(not(target_arch = "wasm32"))]
             "file.cloud_save" => {
                 if let Some(i) = active {
                     // Saved on this computer first, so the cloud gets what is on screen.
